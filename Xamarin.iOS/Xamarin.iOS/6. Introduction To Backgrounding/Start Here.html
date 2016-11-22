@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+    <title>Intro to Backgrounding: Running Finite-Length Tasks</title>
+    <link rel="stylesheet" type="text/css" href="./parts/res/styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./parts/res/styles/prettify.css">
+    <link rel="stylesheet" type="text/css" href="./parts/res/styles/styles.css">
+</head>
+
+<body>
+    <!-- This will be filled in at runtime -->
+    <header role="course-title"></header>
+
+   	<section id="main">
+
+		<h2>Before you begin</h2>
+		<p>
+			This is an iOS class. To complete the coding exercises, you will need a Xamarin.iOS development environment with either a configured iOS Simulator or a device to run the exercise on. Please read the <a href="https://university.xamarin.com/resources/setup-requirements">setup requirements</a> if you need help installing the Xamarin development environment.
+       
+		</p>
+
+		<h2>Overview</h2>
+		<p>
+			After this session you will be able to improve the user experience of your application by allowing an ongoing operation to continue, even if your app is no longer the active one.
+			</p>
+
+		<h2>Objectives</h2>
+		<ol>
+			<li>Understanding the iOS Backgrounding Model</li>
+			<li>Working with Finite-Length Tasks</li>
+		</ol>
+
+		<h2>Lecture</h2>
+		<p><a href="./parts/slides.pdf">iOS210 - Intro to Backgrounding: Running Finite-Length Tasks</a></p>
+
+		<h2>Exercises</h2>
+		<ol>
+			<li>
+				<div class="objective">Integrate a Finite-Length Task with the application lifecycle</div>
+				<a href="./parts/part1.html">Exercise</a>
+				<br />
+				Apps often have to save state information when leaving the foreground. In this exercise you will learn how to&nbsp; request enough time from the operating system to complete such an operation.</li>
+
+			<li>
+				<div class="objective">Code a cancellable Finite-Length Task</div>
+				<a href="./parts/part2.html">Exercise</a>
+				<br />
+				In this exercise you will wrap an ongoing operation into a Finite-Length Task and make the operation cancellable in case the app&nbsp; runs out of background time.
+            </li>
+		</ol>
+
+		<!-- This section is for additional links and examples that are relevant to 
+            the material in this course -->
+		<h2>Additional resources</h2>
+		<p>
+      Here are the <a target="_blank" href="https://university.xamarin.com/faq/ios210-backgrounding">Frequently Asked Questions</a> about Backgrounding on iOS.
+		</p>
+
+		<div class="wslist">
+			<a href="http://developer.xamarin.com/guides/ios/application_fundamentals/backgrounding/">Xamarin documentation: Backgrounding on iOS</a>
+			<a href="https://university.xamarin.com/evolve2014videos">Evolve 2014 Training Videos</a>
+			<a href="https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html#//apple_ref/doc/uid/TP40007072-CH4-SW1">Backgrounding Application programming guide for iOS (Apple)</a>
+		</div>
+
+	</section>
+
+    <script src="./parts/res/js/jquery.min.js"></script>
+    <script src="./parts/res/js/prettify.js"></script>
+    <script src="./parts/res/js/script.js"></script>
+
+    <footer>Copyright (C) 2016 Xamarin</footer>
+</body>
+</html>
+

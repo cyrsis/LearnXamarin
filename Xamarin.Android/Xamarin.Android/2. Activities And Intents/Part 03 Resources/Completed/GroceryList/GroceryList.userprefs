@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="GroceryList/GroceryList.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GroceryList/AddItemActivity.cs">
+    <Files>
+      <File FileName="GroceryList/AddItemActivity.cs" Line="34" Column="2" />
+      <File FileName="GroceryList/MainActivity.cs" Line="41" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GroceryList AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+    <title>RecyclerView and CardView in Android</title>
+    <link rel="stylesheet" type="text/css" href="./parts/res/styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./parts/res/styles/prettify.css">
+    <link rel="stylesheet" type="text/css" href="./parts/res/styles/styles.css">
+</head>
+
+<body>
+    <!-- This will be filled in at runtime -->
+    <header role="course-title"></header>
+
+   	<section id="main">
+
+		<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+		<h2>Before you begin</h2>
+		<p>
+			This is an Android class. To complete the coding exercises, you will need a Xamarin.Android development environment with either an emulator or a device to run the exercise on. Please read the <a href="https://university.xamarin.com/resources/setup-requirements">setup requirements</a> if you need help installing the Xamarin development environment.
+		</p>
+
+		<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+		<h2>Overview</h2>
+		<p>
+			This course shows how to use RecylerView and CardView to display your collections. After the course, you will be able to
+			add a RecyclerView to your app and code the Adapter, ViewHolder, and item-layout files needed to show your data inside a
+			RecyclerView.
+		</p>
+
+		<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+		<h2>Objectives</h2>
+		<ol>
+			<li>Display a collection using RecyclerView</li>
+			<li>Update the UI after a data change</li>
+			<li>Respond to user actions</li>
+			<li>Show data in a CardView</li>
+		</ol>
+
+		<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+		<h2>Lecture</h2>
+		<p><a href="./parts/slides.pdf">AND115 - RecyclerView and CardView in Android</a>.</p>
+		<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+		<h2>Exercises</h2>
+		<ol>
+			<li>
+				<div class="objective">Create a RecyclerView</div>
+				<a href="./parts/part1.html">Exercise</a>
+				<br />
+				This exercise does setup: create a new project and add a RecyclerView to your main Activity.
+			</li>
+
+			<li>
+				<div class="objective">Set a layout manager</div>
+				<a href="./parts/part2.html">Exercise</a>
+				<br />
+				Here you will load your preferred layout manager into your RecyclerView.
+			</li>
+
+			<li>
+				<div class="objective">Code an item-layout file</div>
+				<a href="./parts/part3.html">Exercise</a>
+				<br />
+				This part lets you code the XML layout file you will use to display one of your data items in your UI.
+			</li>
+
+			<li>
+				<div class="objective">Code a view holder</div>
+				<a href="./parts/part4.html">Exercise</a>
+				<br />
+				Here you code the required ViewHolder which caches view references to avoid repeated calls to FindViewById.
+			</li>
+
+			<li>
+				<div class="objective">Code an adapter</div>
+				<a href="./parts/part5.html">Exercise</a>
+				<br />
+				This exercise brings together all of the previous parts. You will code an Adapter that uses your ViewHolder
+				and item-layout file to create and populate the UI for your data items.
+			</li>
+
+			<li>
+				<div class="objective">Add an item-click event</div>
+				<a href="./parts/part6.html">Exercise</a>
+				<br />
+				Here you will implement an item-click event to notify client code when the user touches one of the
+				items displayed in the RecyclerView.
+			</li>
+
+			<li>
+				<div class="objective">Show data in a CardView</div>
+				<a href="./parts/part7.html">Exercise</a>
+				<br />
+				This part shows how to use a CardView as the root container in your item-layout file.
+			</li>
+
+			</ol>
+		<!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+		<h2>Additional resources</h2>
+
+		<div class="wslist">
+			<a target="_blank" href="https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html">RecyclerView (Android documentation)</a>
+			<a target="_blank" href="https://developer.android.com/reference/android/support/v7/widget/CardView.html">CardView (Android documentation)</a>
+			<a target="_blank" href="http://www.google.com/design/spec/components/cards.html">Cards (Android guidance)</a>
+			<a target="_blank" href="https://developer.android.com/training/material/lists-cards.html">Creating Lists and Cards (Android training)</a>
+		</div>
+
+	</section>
+
+    <script src="./parts/res/js/jquery.min.js"></script>
+    <script src="./parts/res/js/prettify.js"></script>
+    <script src="./parts/res/js/script.js"></script>
+
+    <footer>Copyright (C) 2016 Xamarin</footer>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+    <title>Fundamentals of TableViews</title>
+    <link rel="stylesheet" type="text/css" href="./parts/res/styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./parts/res/styles/prettify.css">
+    <link rel="stylesheet" type="text/css" href="./parts/res/styles/styles.css">
+</head>
+
+<body>
+    <!-- This will be filled in at runtime -->
+    <header role="course-title"></header>
+
+    <section id="main">
+
+        <h2>Before you begin</h2>
+        <p>
+        This is an iOS class. To complete the coding exercises, you will need a Xamarin.iOS development environment with either the iOS Simulator or an iOS device to run the exercise on. Please read the <a href="https://university.xamarin.com/resources/setup-requirements">setup requirements</a> if you need help installing the Xamarin development environment.
+        </p>
+
+        <h2>Overview</h2>
+        <p>
+          In iOS, it's fairly rare to come across applications (that aren't games) which do not use a Table View. This commonly used control lets an application display a scrollable list of data which can be manipulated and often forms the basis of master/detail views. This class will go through the basics of using Table Views, getting them into your UI, populating them with data and performing some basic customizations.
+        </p>
+
+        <h2>Objectives</h2>
+        <ol>
+           <li>Explore Table Views</li>
+           <li>Utilize built-in cell styles</li>
+           <li>Add selection behavior</li>
+           <li>Implement cell reuse</li>
+        </ol>
+
+        <h2>Lecture</h2>
+        <p><a href="./parts/slides.pdf">iOS110 - Fundamentals of TableViews</a>.</p>
+
+        <h2>Exercises</h2>
+        <ol>
+            <li><div class="objective">Add a Table View to an application</div>
+            <a href="./parts/part1.html">Exercise</a>
+            <br />
+            In this group exercise, we will create a new iOS application and add a <code>UITableView</code> in code and through the Storyboard designer.
+            </li>
+
+            <li><div class="objective">Populating a Table View</div>
+            <a href="./parts/part2.html">Exercise</a>
+            <br />
+            Next, you will populate your <code>UITableView</code> controls with data using a <code>UITableViewSource</code> and through the <code>UITableViewController</code>.
+            </li>
+
+            <li><div class="objective">Using the built-in cell styles</div>
+            <a href="./parts/part3.html">Exercise</a>
+            <br />
+            The <code>UITableViewCell</code> has several different styles with subviews in different positions. In this group exercise, we will try out the various options to see how to display the data in different ways.
+            </li>
+
+            <li><div class="objective">Using the accessory styles and row selection</div>
+            <a href="./parts/part4.html">Exercise</a>
+            <br />
+            While read-only Table Views are certainly valuable, we often want to respond to the user tapping on a row. In this exercise, we will add behavior into our application through the Table View delegate notification methods.
+            </li>            
+
+            <li><div class="objective">Implement cell reuse</div>
+            <a href="./parts/part5.html">Exercise</a>
+            <br />
+            In this final exercise, we will implement the <code>GetCell</code> method in the proper fashion - adding support to reuse the <code>UITableViewCell</code> elements.
+            </li>            
+        </ol>
+
+        <!-- This section is for additional links and examples that are relevant to 
+            the material in this course -->
+        <h2>Additional resources</h2>
+        <p>
+         Here are the <a target="_blank" href="https://university.xamarin.com/faq/ios110-tables-views-in-ios">Frequently Asked Questions</a> about TableViews in iOS.
+        </p>
+        <p>
+         Here are some additional documentation pages from Xamarin and Apple which are useful reading to provide an alternative learning path.
+        </p>
+
+        <div class="wslist">
+            <a target="_blank" href="http://developer.xamarin.com/recipes/ios/content_controls/tables/">Tables in Xamarin.iOS</a>
+            <a target="_blank" href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html">About Table Views in iOS Apps</a>
+            <a target="_blank" href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/TableView_iPhone/TableViewStyles/TableViewCharacteristics.html#//apple_ref/doc/uid/TP40007451-CH3-SW1">Table View Styles and Accessory Views</a>        
+            <a target="_blank" href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableView_Class/">UITableView reference</a>
+        </div>
+
+    </section>
+
+    <script src="./parts/res/js/jquery.min.js"></script>
+    <script src="./parts/res/js/prettify.js"></script>
+    <script src="./parts/res/js/script.js"></script>
+
+    <footer>Copyright (C) 2016 Xamarin</footer>
+</body>
+</html>
+

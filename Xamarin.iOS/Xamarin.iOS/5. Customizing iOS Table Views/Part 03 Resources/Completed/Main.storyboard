@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="3">
+            <objects>
+                <tableViewController id="4" sceneMemberID="viewController" customClass="SettingsViewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="4" id="6"/>
+                            <outlet property="delegate" destination="4" id="7"/>
+                        </connections>
+                        <sections>
+                            <tableViewSection headerTitle="Weather Settings" id="12">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="13" style="IBUITableViewCellStyleDefault" textLabel="26" detailTextLabel="20" imageView="21" accessoryType="disclosureIndicator">
+                                        <rect key="frame" x="0.0" y="55.5" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="13" id="14">
+                                            <rect key="frame" x="0.0" y="0.0" width="566" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="AddCity.png" id="21">
+                                                    <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Add City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="26">
+                                                    <rect key="frame" x="75" y="0.0" width="490" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="15" style="IBUITableViewCellStyleValue1" textLabel="78" imageView="29" accessoryType="disclosureIndicator" detailTextLabel="79">
+                                        <rect key="frame" x="0.0" y="99.5" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="15" id="16">
+                                            <rect key="frame" x="0.0" y="0.0" width="566" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="DefaultCity.png" id="29">
+                                                    <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Default City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="78">
+                                                    <rect key="frame" x="75" y="12" width="89.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Vancouver" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="79">
+                                                    <rect key="frame" x="484.5" y="12" width="80.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="17" style="IBUITableViewCellStyleDefault" textLabel="37" imageView="38" accessoryType="detailDisclosureButton">
+                                        <rect key="frame" x="0.0" y="143.5" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="17" id="18">
+                                            <rect key="frame" x="0.0" y="0.0" width="532" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Manage Cities" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="37">
+                                                    <rect key="frame" x="75" y="0.0" width="457" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ManageCity.png" id="38">
+                                                    <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="35" rowHeight="44">
+                                        <rect key="frame" x="0.0" y="187.5" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="35" id="36">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="39" translatesAutoresizingMaskIntoConstraints="NO" image="tempUnits.png">
+                                                    <rect key="frame" x="20" y="1" width="42" height="42"/>
+                                                    <constraints>
+                                                        <constraint id="42" firstItem="39" firstAttribute="height" constant="44"/>
+                                                        <constraint id="43" firstItem="39" firstAttribute="width" constant="44"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="46">
+                                                    <rect key="frame" x="529" y="6" width="51" height="31"/>
+                                                </switch>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Use Metric (Celsius)" lineBreakMode="tailTruncation" minimumFontSize="10" id="49" translatesAutoresizingMaskIntoConstraints="NO">
+                                                    <rect key="frame" x="75" y="11" width="203" height="21"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="39" firstAttribute="leading" secondItem="36" secondAttribute="leading" constant="16" id="40"/>
+                                                <constraint firstItem="39" firstAttribute="centerY" secondItem="36" secondAttribute="centerY" constant="0.0" id="41"/>
+                                                <constraint firstItem="46" firstAttribute="centerY" secondItem="36" secondAttribute="centerY" constant="0.0" id="47"/>
+                                                <constraint firstItem="36" firstAttribute="trailing" secondItem="46" secondAttribute="trailing" constant="20" id="48"/>
+                                                <constraint firstItem="49" firstAttribute="centerY" secondItem="36" secondAttribute="centerY" constant="0.0" id="51"/>
+                                                <constraint firstItem="49" firstAttribute="leading" secondItem="36" secondAttribute="leading" constant="75" id="83"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="65" rowHeight="44">
+                                        <rect key="frame" x="0.0" y="231.5" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="65" id="66">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="67" translatesAutoresizingMaskIntoConstraints="NO" image="WeatherAlerts.png">
+                                                    <rect key="frame" x="20" y="1" width="42" height="42"/>
+                                                    <constraints>
+                                                        <constraint id="68" firstItem="67" firstAttribute="height" constant="44"/>
+                                                        <constraint id="69" firstItem="67" firstAttribute="width" constant="44"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="70">
+                                                    <rect key="frame" x="529" y="6" width="51" height="31"/>
+                                                </switch>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Show Weather Alerts" lineBreakMode="tailTruncation" minimumFontSize="10" id="71" translatesAutoresizingMaskIntoConstraints="NO">
+                                                    <rect key="frame" x="75" y="11" width="203" height="21"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="67" firstAttribute="leading" secondItem="66" secondAttribute="leading" constant="16" id="72"/>
+                                                <constraint firstItem="67" firstAttribute="centerY" secondItem="66" secondAttribute="centerY" constant="0.0" id="73"/>
+                                                <constraint firstItem="70" firstAttribute="centerY" secondItem="66" secondAttribute="centerY" constant="0.0" id="74"/>
+                                                <constraint firstItem="66" firstAttribute="trailing" secondItem="70" secondAttribute="trailing" constant="20" id="75"/>
+                                                <constraint firstItem="71" firstAttribute="centerY" secondItem="66" secondAttribute="centerY" constant="0.0" id="77"/>
+                                                <constraint firstItem="71" firstAttribute="leading" secondItem="66" secondAttribute="leading" constant="75" id="84"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                    </tableView>
+                    <connections>
+                        <outlet property="CellAddCity" destination="26" id="name-outlet-26"/>
+                        <outlet property="CellDefaultCity" destination="15" id="name-outlet-15"/>
+                        <outlet property="CellManageCities" destination="17" id="name-outlet-17"/>
+                        <outlet property="CellUnits" destination="35" id="name-outlet-35"/>
+                        <outlet property="CellAlerts" destination="65" id="name-outlet-65"/>
+                        <outlet property="SwitchUnits" destination="46" id="name-outlet-46"/>
+                        <outlet property="SwitchAlerts" destination="70" id="name-outlet-70"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228" y="24"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AddCity.png" width="60" height="60"/>
+        <image name="DefaultCity.png" width="60" height="60"/>
+        <image name="ManageCity.png" width="60" height="60"/>
+        <image name="tempUnits.png" width="60" height="60"/>
+        <image name="WeatherAlerts.png" width="60" height="60"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
