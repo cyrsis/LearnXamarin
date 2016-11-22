@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SpicyUI.WelcomePage" 
+	xmlns:local="clr-namespace:SpicyUI;"
+	BackgroundColor="#4A90E2">
+	<ContentPage.Content>
+		<StackLayout Spacing="40"
+			Padding="0, 40, 0, 0">
+			<StackLayout Spacing="10">
+				<Image Source="MomentsIcon.png"
+					HeightRequest="175"
+					WidthRequest="175" />
+				<Label Text = "Moments"
+					HorizontalOptions="CenterAndExpand"
+					BackgroundColor="Transparent"
+					FontAttributes="None"
+					FontFamily="HelveticaNeue-Thin"
+					FontSize="32"
+					TextColor="White" />
+			</StackLayout>
+			<StackLayout Spacing="0">
+				<local:SpicyEntry Text="{Binding Username}"
+					BorderEnabled="False"
+					BackgroundColor="#77abe9"
+					Placeholder="Username"
+					TextColor="White"
+					HeightRequest="45" />
+				<Image BackgroundColor="White"
+					HeightRequest="1" />
+				<local:SpicyEntry Text="{Binding Password}"
+					BorderEnabled="False"
+					BackgroundColor="#77abe9"
+					Placeholder="Password"
+					HeightRequest="45"
+					TextColor="White"
+					IsPassword="true" />
+			</StackLayout>
+			<Button Text="Sign In"
+				Command="{Binding SignInUserCommand}" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
