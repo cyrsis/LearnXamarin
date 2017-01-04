@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="DrawerLayout_V7_Tutorial\Fragments.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DrawerLayout_V7_Tutorial\MainActivity.cs">
+    <Files>
+      <File FileName="DrawerLayout_V7_Tutorial\MainActivity.cs" Line="40" Column="51" />
+      <File FileName="DrawerLayout_V7_Tutorial\Fragments\Fragment3.cs" Line="1" Column="1" />
+      <File FileName="DrawerLayout_V7_Tutorial\Fragments\Fragment1.cs" Line="19" Column="60" />
+      <File FileName="DrawerLayout_V7_Tutorial\Resources\menu\action_menu.xml" Line="1" Column="1" />
+      <File FileName="DrawerLayout_V7_Tutorial\Resources\anim\slide_in.xml" Line="1" Column="1" />
+      <File FileName="DrawerLayout_V7_Tutorial\Resources\anim\slide_out.xml" Line="1" Column="1" />
+      <File FileName="DrawerLayout_V7_Tutorial\Fragments\Fragment4.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Fragments AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="ToolbarOverlay_Tutorial\ToolbarOverlay_Tutorial.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToolbarOverlay_Tutorial\MainActivity.cs">
+    <Files>
+      <File FileName="ToolbarOverlay_Tutorial\MainActivity.cs" Line="54" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToolbarOverlay__Tutorial AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

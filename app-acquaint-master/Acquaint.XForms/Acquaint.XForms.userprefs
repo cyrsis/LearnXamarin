@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Acquaint.XForms.Droid/Acquaint.XForms.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Acquaint.XForms/App.xaml.cs">
+    <Files>
+      <File FileName="Acquaint.XForms/App.xaml.cs" Line="5" Column="61" />
+      <File FileName="../Acquaint.Data/Acquaintance.cs" Line="6" Column="2" />
+      <File FileName="Acquaint.XForms/ViewModels/AcquaintanceListViewModel.cs" Line="4" Column="21" />
+      <File FileName="Acquaint.XForms/ViewModels/AcquaintanceDetailViewModel.cs" Line="6" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

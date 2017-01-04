@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.Share.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.Share.Abstractions.IShare">
+            <summary>
+            Interface for Share
+            </summary>
+        </member>
+        <member name="M:Plugin.Share.Abstractions.IShare.Share(System.String,System.String)">
+            <summary>
+            Simply share text on compatible services
+            </summary>
+            <param name="text">Text to share</param>
+            <param name="title">Title of popup on share (not included in message)</param>
+            <returns>awaitable Task</returns>
+        </member>
+        <member name="M:Plugin.Share.Abstractions.IShare.OpenBrowser(System.String)">
+            <summary>
+            Open a browser to a specific url
+            </summary>
+            <param name="url">Url to open</param>
+            <returns>awaitable Task</returns>
+        </member>
+        <member name="M:Plugin.Share.Abstractions.IShare.ShareLink(System.String,System.String,System.String)">
+            <summary>
+            Share a link url with compatible services
+            </summary>
+            <param name="url">Link to share</param>
+            <param name="message">Message to share</param>
+            <param name="title">Title of the popup</param>
+            <returns>awaitable Task</returns>
+        </member>
+    </members>
+</doc>
